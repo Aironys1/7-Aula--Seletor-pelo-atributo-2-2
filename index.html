@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>[7] Aula - Instrutor Lacerda Seletor pelo atributo 2-2</title>
+</head>
+
+<body>
+    <h1>[7] Aula - Instrutor Lacerda Seletor pelo atributo 2-2</h1>
+
+    <input type="text" required>
+
+    <img src="img/google_logo.svg" alt="">
+
+    <a
+        href="https://gshow.globo.com/realities/bbb/bbb22/ep/avon/noticia/avon-power-stay-veio-pra-ficar-no-bbb-22-brothers-encararam-efeitos-em-prova-de-resistencia.ghtml">BIG
+        BROTHER BRASIL</a>
+    <a
+        href="https://ge.globo.com/futebol/times/flamengo/noticia/2022/04/02/atuacoes-do-flamengo-david-luiz-e-o-pior-em-campo-e-arrascaeta-se-salva-em-jogo-ruim-do-time-na-final.ghtml">Esporte</a>
+    <a
+        href="https://gshow.globo.com/novelas/quanto-mais-vida-melhor/vem-por-ai/noticia/quanto-mais-vida-melhor-flavia-e-guilherme-enfim-ficarao-juntos.ghtml">Novela</a>
+
+
+    <div>
+        Selecionando as noticias pelo nome da notícia.
+        usando o atibuto ( href="" );
+    </div>
+
+    <div>
+        <h2>Podemos usar muitas formas para poder selecionar os atributos. Pelo html, pela palavra no link. </h2> <br>
+        <p>Exemplo:</p> <br>
+
+        <code>
+            a[href^="https"]{  <br>
+            background-color: rgb(164, 164, 241); <br>
+            text-decoration: none; <br>
+            } <br><br>
+ 
+            a[href$="html"]{<br>
+            color: rgb(255, 255, 255);<br>
+            }<br><br>
+
+            a[href*="flamengo"]{<br>
+            font-weight: bold;<br>
+            color: red;<br>
+            }<br><br>
+        </code>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+input,a{
+    display: block;
+}
+
+[required]{
+    background-color:rgb(130, 155, 231);
+    border: 0;
+    outline:0;
+    color: aliceblue;
+}
+
+a[href^="https"]{
+    background-color: rgb(164, 164, 241);
+    text-decoration: none;
+}
+
+a[href$="html"]{
+    color: rgb(255, 255, 255);
+}
+
+a[href*="flamengo"]{    
+    font-weight: bold;
+    color: red;
+}
+
+code{
+    background-color:rgb(75, 76, 78);
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+}
